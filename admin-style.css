@@ -1,0 +1,191 @@
+:root {
+    --pdm-orange: #eb6a24;
+    --pdm-bg: #0d0d0d;
+    --black: #000;
+    --gray: #2a2a2a;
+    --dark-gray: #1e1e1e;
+    --white: #fff;
+}
+
+body {
+    background: var(--pdm-bg)!important;
+    color: var(--white)!important;
+}
+
+h1, h2, h3 {
+    color: var(--white)!important;
+}
+
+.notice,div.error,div.updated {
+    background: #1f0909!important;
+    border: 1px solid #ff0000!important;
+    border-radius: 5px!important;
+    border-left-width: 4px!important;
+    box-shadow: 0 1px 1px rgb(255 255 255 / 20%)!important;
+    margin: 5px 15px 2px!important;
+    padding: 1px 12px!important
+}
+
+.notice-success {
+    border-color: green!important;
+    background: #0c140c!important;
+}
+
+.howto {
+    color: var(--white)!important;
+}
+
+#templateside>ul, .CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler {
+    background: var(--black)!important;
+}
+
+#templateside>ul {
+    border: 0px!important;
+    border-radius: 10px!important;
+}
+
+[role=treeitem] .folder-label.focus,[role=treeitem] a:focus {
+    color: var(--white)!important;
+    box-shadow: none!important;
+    outline: 2px solid var(--white)!important;
+    outline-offset: -2px!important
+}
+
+[role=treeitem] .folder-label.hover,[role=treeitem].hover {
+    background-color: #2a2d2e!important;
+}
+
+a {
+    color: #91d3ff!important;
+    transition-property: border,background,color!important;
+    transition-duration: .05s!important;
+    transition-timing-function: ease-in-out!important
+}
+
+a,div {
+    outline: 0!important
+}
+
+a:active,a:hover {
+    color: var(--white)
+}
+
+.nonessential {
+    color: #a8a8a8!important;
+}
+
+.wrap .CodeMirror .CodeMirror-linenumber {
+    color: #858585!important;
+    background: var(--black)!important;
+}
+
+#template .CodeMirror, #template textarea {
+    border: 0px!important;
+    border-radius: 10px!important;
+}
+
+.CodeMirror-activeline-background {
+    background: var(--pdm-bg)!important;
+}
+
+.CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+    background: var(--dark-gray)!important;
+}
+
+.CodeMirror-wrap pre {
+    color: #fff!important;
+}
+
+.cm-s-default .cm-tag, .cm-s-default .cm-meta, .cm-s-default .cm-qualifier {
+    color: #d7ba7d!important;
+}
+
+.cm-s-default .cm-comment {
+    color: #9cdcfe!important;
+}
+
+.cm-s-default .cm-builtin {
+	color: #d7ba7d!important;
+}
+
+.cm-property, .cm-invalidchar, .cm-s-default .cm-error {
+    color: #9cdcfe!important;
+    font-weight: bold!important;
+}
+
+.cm-s-default .cm-atom {
+    color: #fff!important;
+}
+
+.cm-s-default .cm-number {
+    color: #b5cea8!important;
+}
+
+.cm-s-default .cm-keyword {
+    color: #569cd6!important;
+}
+
+.cm-s-default .cm-def, .cm-s-default .cm-attribute {
+    color: #c586c0!important;
+}
+
+.cm-s-default .cm-string {
+    color: #ce9178!important;
+}
+
+.wp-core-ui .button-primary {
+    border: 0px!important;
+    border-radius: 20px!important;
+    transition: .3s!important;
+}
+
+.wp-core-ui .button-primary.focus,.wp-core-ui .button-primary.hover,.wp-core-ui .button-primary:focus,.wp-core-ui .button-primary:hover {
+    background: #135e96!important;
+    border-color: #135e96!important;
+    transform: scale(1.1)!important
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+    background: #2d2d2d!important;
+    color: #91d3ff!important;
+    border: 0px!important;
+    border-radius: 20px!important;
+}
+
+#screen-meta-links .show-settings {
+    background: #2d2d2d!important;
+    color: #91d3ff!important;
+    border: 0px!important;
+    border-radius: 20px!important;
+}
+
+#screen-meta-links .show-settings:active,#screen-meta-links .show-settings:focus,#screen-meta-links .show-settings:hover {
+    color: #ffff!important;
+}
+
+#contextual-help-back, #screen-meta {
+    background: var(--gray)!important;
+}
+
+
+#screen-meta {
+    border-radius: 10px!important;
+    border: 0px!important;
+    margin-bottom: 10px!important;
+}
+
+.CodeMirror-selected {
+    background: #007fff5c!important
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: #007fff5c!important;
+}
+
+.CodeMirror-line::selection,.CodeMirror-line>span::selection,.CodeMirror-line>span>span::selection {
+    background: #007fff5c!important
+}
+
+.CodeMirror-line::-moz-selection,.CodeMirror-line>span::-moz-selection,.CodeMirror-line>span>span::-moz-selection {
+    background: #007fff5c!important
+}

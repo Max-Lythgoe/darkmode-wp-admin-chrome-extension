@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "WordPress Theme Editor Styles",
+  "version": "1.0",
+  "description": "Apply custom styles to WordPress theme editor pages.",
+  "content_scripts": [
+    {
+      "matches": ["*://*/wp-admin/theme-editor.php*"],
+      "css": ["admin-style.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["activeTab", "declarativeContent", "storage"]
+}
